@@ -1,0 +1,36 @@
+/* First Section */
+.our-work{
+    background-color: #08080a;
+    padding-top: 6%;
+}
+.our-work h1{
+    color: #ffffff;
+}
+
+
+/* Second Section */
+.buy-biz{
+    padding-top: 6%;
+}
+
+.primary-color{
+    color:#f9c349;
+}
+.primary-bgcolor{
+    background-color:#f9c349;
+}
+.y-line{
+    border-top: 10px solid #f9c349;
+    width: 25%;
+}
+.yy-line{
+    border-top: 4px solid #f9c349;
+    width: 30%;
+}
+.heading{
+    align-items: center;
+    justify-items: center;
+    place-items: center;
+    justify-content: center;
+    justify-items: center;
+}
