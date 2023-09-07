@@ -34,3 +34,16 @@
     justify-content: center;
     justify-items: center;
 }
+
+/* Example CSS */
+
+.card {
+    width:100%
+}
+
+.grid-item {
+    border: 1px solid #c72626;
+}
+
+
+/* Nav Dropdowns */
