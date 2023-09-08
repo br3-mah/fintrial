@@ -111,3 +111,25 @@ td {
     text-align: left;
     border: 1px solid #dddddd;
 }
+/* Style the filter row */
+.filter-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: auto;
+    padding-top:4%;
+    padding-bottom:2%;
+    padding-right:10%;
+    padding-left:10%;
+}
+
+/* Style the filter input fields */
+.filter-row input[type="text"] {
+    padding: 15px; /* Increase padding for a larger input field */
+    border: 1px solid #1a130d;
+    border-radius: 0; /* Remove border-radius to make it square */
+    flex: 1;
+    margin-right: 10px;
+    width: auto; /* Remove width to allow them to expand as needed */
+}
