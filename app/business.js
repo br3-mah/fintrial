@@ -94,7 +94,8 @@ class DataRepository {
 
     displayDataInGrid(data) {
         const dataGrid = document.getElementById('data-grid');
-
+        // Get a reference to the loader element and the button
+        const loader = document.querySelector('.loader');
         // Clear existing content
         dataGrid.innerHTML = '';
 
@@ -136,7 +137,7 @@ class DataRepository {
             // Append the item element to the grid container
             dataGrid.appendChild(itemElement);
         });
-
+        loader.style.display = 'none';
 
     }
 }
