@@ -41,9 +41,73 @@
     width:100%
 }
 
+
+.business-container {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}        
+
+#data-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* You can adjust the number of columns as needed */
+    gap: 10px; /* Adjust the gap between grid items */
+    width: 80%;
+}
+
 .grid-item {
-    border: 1px solid #c72626;
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+/* Nav Dropdowns */
+
+
+/* Buttons */
+/* Define styles for the button with the class "btn-awesome" */
+.btn-awesome {
+    background-color: #1d120d; /* Green background color */
+    color: rgb(255, 255, 255); /* White text color */
+    padding: 15px 25px; /* Padding for the button */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition on hover */
+}
+
+/* Add a hover effect to the button */
+.btn-awesome:hover {
+    background-color: #050302; /* Darker green color on hover */
 }
 
 
-/* Nav Dropdowns */
+/* Table */
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the table horizontally */
+}
+
+/* Style the table caption (title) */
+caption h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style table rows */
+tr {
+    background-color: #f2f2f2;
+}
+
+/* Style table cells */
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dddddd;
+}

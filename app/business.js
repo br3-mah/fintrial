@@ -107,15 +107,28 @@ class DataRepository {
             // Create a card content with additional information
             // <p>Description: ${item.description}</p>
             const content = `
-                <h2>${item.name}</h2>
-                <p>Asking Price: $${item.asking_price}</p>
-                <p>Gross Revenue: $${item.gross_revenue}</p>
-                <p>Cash Flow: $${item.cash_flow}</p>
-                <p>Address: ${item.address}</p>
-                <button>Buy Now</button>
-                <br>
-                <hr>
-                <br>
+                <table>
+                    <caption><h2>${item.name}</h2></caption>
+                    <tr>
+                        <td>Asking Price:</td>
+                        <td>K${item.asking_price}</td>
+                    </tr>
+                    <tr>
+                        <td>Gross Revenue:</td>
+                        <td>K${item.gross_revenue}</td>
+                    </tr>
+                    <tr>
+                        <td>Cash Flow:</td>
+                        <td>K${item.cash_flow}</td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>${item.address}</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button class="btn-default btn-awesome">Buy Now</button></td>
+                    </tr>
+                </table>
             `;
 
             itemElement.innerHTML = content;
