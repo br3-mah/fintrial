@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emmanuel Mwale & Company</title>
     <link rel="stylesheet" href="public/css/app.css" />
     <link rel="stylesheet" href="public/css/custom.css" />
 </head>
 <body>
-    <section>
+    <section id="one">
         <nav id="nav">
 
             <div class="nav-logo">
@@ -86,31 +86,52 @@
                 <span><i class="far fa-moon white night"></i></span>
             </ul>
         </nav>
+
+        <div class="content">
+            <div class="text-content">
+                <h1 style="font-size: 80px;" class="white"> <strong>Strategic Review</strong></h1>
+                <!-- <h4 class="blackish">We offer special services for special pets!</h4> -->
+                <div class="two-button y-line">
+                    <!-- <button class="w-btn btn">View Our Services</button>
+                    <button class="t-btn btn">Hire Us</button> -->
+                </div>
+
+            </div>
     </section>
 
-    <section class="buy-biz" id="two">
-        <div class="heading ">
-            <h1>Buy a Business in Lusaka</h1>
+    <section>
+    <div id="one-half" style=""margin:auto; line-height: 1.5;">
+        <div style="margin:50px, 20px, 50px, 20px; line-height: 1.5">
+            <p>
+                At EM&Co. we understand that a well-defined business model is the foundation of sustainable success.
+                Our expert business modeling services empower your organization to define, refine, and optimize business models that drive growth, profitability, and competitive advantage.
+            </p>
             <br>
-            <div style="margin: auto;" class="yy-line"></div>
-        </div>
-        <div class="filter-row">
-            <input type="text" id="filter-name" placeholder="Filter by Name">
-            <input type="text" id="filter-price" placeholder="Filter by Price">
-            <input type="text" id="filter-location" placeholder="Filter by Location">
-            <button class="btn-awesome">Search</button>
-        </div>
-        <div class="business-container">
-            <div id="data-grid"></div>
-        </div>
-        <div class="business-container">
-            <span class="loader"></span>
+            <h2><strong>Why Business Modeling Matters:</strong></h2>
+            <br>
+            <ol type="1">
+                <li>
+                    <strong>Strategic Clarity:</strong> A clear and well-structured business model provides a roadmap for your organization's strategic direction. It ensures that all stakeholders understand the value proposition, target market, main and ancillary revenue lines, and key operational activities.
+                </li>
+                <br>
+                <li>
+                    <strong>Innovation and Adaptability:</strong> Business modeling encourages innovation by exploring new revenue streams, market opportunities, and customer segments. It also enables your business to adapt quickly to changing market conditions.
+                </li>
+                <br>
+                <li>
+                    <strong>Resource Allocation:</strong> A well-defined business model helps allocate resources efficiently, ensuring that investments align with the most critical aspects of your business.
+                </li>
+                <br>
+                <li>
+                    <strong>Scalability:</strong> Scalability is essential for sustainable growth. A robust business model lays the groundwork for expansion, whether it's entering new markets or diversifying product offerings. We recognize that each business idea is unique, with its own commercial opportunities and risks that is why we use a client-driven approach to business modeling tailored to our client's original ideas but tailored for market conditions.
+                </li>
+            </ol>
+                <button class="open-modal">Click Here to Book <br>One-on-One Session w/<br>
+                    Strategy Consultant
+                </button>
         </div>
     </section>
-</body>
-
-
-
+    
 
 <footer id="eight">
 
@@ -125,7 +146,7 @@
             <br>
             <div class="categories">
                 <small>
-                    Headquarters Galations<br>Square, 
+                    Headuarters Galations<br>Square, 
                     34. Acacia Avenue,<br>
                     Lusaka Republic of Zambia
                 </small>
@@ -169,20 +190,11 @@
             <div class="categories">
                 <small>
                     African Development Bank driving innovation to scale up climate adaptation
-African Development Bank to extend nearly $1m in gender-based grants
-African Investment Forum: Africa remains attractive to investors
+                    African Development Bank to extend nearly $1m in gender-based grants
+                    African Investment Forum: Africa remains attractive to investors
                 </small>
             </div>
         </div>
-        <!-- <div class="newsletter">
-            <h3>NEWSLETTER</h3>
-            <h3>SUBSCRIBE HERE NOW</h3>
-            <span>
-                <input type="text" placeholder="Email Address"><button class="btn"><i
-                        class="far fa-paper-plane"></i></button>
-            </span>
-            <p>Subscribe to our mailing list and get updates to your email inbox.</p>
-        </div> -->
 
     </div>
 
@@ -202,20 +214,80 @@ African Investment Forum: Africa remains attractive to investors
     </div>
 </footer>
 
+<div class="service-modal">
+    <div>
+        <a style="background-color: #fff; padding: 1%; border-radius: 100%; cursor:pointer; margin: 2%; margin-top: 1%;" class="close-modal">
+            <span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+                  </svg>
+            </span>
+        </a>
+    </div>
+    <form>
+        <div class="my-container">
+            <div class="my-part">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country">
+    
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+    
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title">
+            </div>
+
+            <div class="my-part">
+                <label for="firstName">Client First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+    
+                <label for="middleName">Client Middle Name:</label>
+                <input type="text" id="middleName" name="middleName">
+    
+                <label for="lastName">Client Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+            </div>
+
+            <div class="my-part">
+                <label for="businessName">Business Name:</label>
+                <input type="text" id="businessName" name="businessName">
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+             <div class="my-part">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber">
+    
+                <label for="meetingType">Preferred Meeting Type:</label>
+                <input type="text" id="meetingType" name="meetingType">
+            </div>
+
+            <div class="center">
+                <button type="submit">Proceed to Payments</button>
+            </div>
+        </div>
+    </form>
+</div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="public/js/app.js"></script>
-<script src="app/business.js"></script>
 <script>
-    let x = document.querySelector(".night")
-    
-    x.addEventListener('click', () => {
-        let y = document.querySelectorAll('.goblack')
+document.addEventListener('DOMContentLoaded', function () {
+    const openModalButton = document.querySelector('.open-modal');
+    const closeModalButton = document.querySelector('.close-modal');
+    const modal = document.querySelector('.service-modal');
 
-        for (let i = 0; i < y.length; i += 1) {
-
-            y.item(i).classList.toggle("dark-mode");
-        }
-    })
+    openModalButton.addEventListener('click', function () {
+        modal.style.display = 'block';
+    });
+    closeModalButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+    });
+});
 </script>
 
 </html>
