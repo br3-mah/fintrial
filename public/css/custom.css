@@ -188,10 +188,11 @@ td {
     position: absolute;
     top: 100%; /* Position the dropdown below the link */
     left: 0;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background: #3b3735;
     z-index: 1;
+    width: 50px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -205,11 +206,15 @@ td {
     text-decoration: none;
     display: block;
 }
-
-.dropdown-content a:hover {
-    /* background-color: #ddd; */
+.dropdown li {
+    list-style: none;
+    text-decoration: none;
 }
-
+.dropdown-content a:hover {
+    list-style: none;
+    text-decoration: none;
+    color:#fff;
+}
 
 .my-part {
     display: grid;

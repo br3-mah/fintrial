@@ -112,7 +112,6 @@
   }
   
   #nav ul li a {
-    color: black;
     padding: 11em 0em;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
@@ -121,13 +120,11 @@
     
   }
   #nav ul li a:nth-of-type(3) {
-    color: black;
+    
   }
   
   #nav ul li + li a:hover {
-    box-shadow: 1px 14px 0px -1px rgba(0, 0, 0, 0),
-      -1px 19px 0px -9px rgba(255, 255, 255, 1);
-  
+    color: #fff;
     transition: 0.1s;
   }
   #nav ul li:first-child a {
